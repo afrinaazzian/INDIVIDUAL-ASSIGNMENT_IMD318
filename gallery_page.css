@@ -1,0 +1,238 @@
+}
+.site-header { 
+  border-bottom: 1px solid #ccc;
+  padding: .5em 1em;
+}
+
+.site-header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.site-identity {
+  float: left;
+}
+
+.site-identity h1 {
+  font-size: 1.5em;
+  margin: .7em 0 .3em 0;
+  display: inline-block;
+}
+
+.site-identity img {
+  max-width: 55px;
+  float: left;
+  margin: 0 10px 0 0;
+}
+    
+    /* Header Style */
+    header {
+      background-color: #ffebf8;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+    }
+    
+    /* Navigation Bar Style */
+    .navbar {
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      background-color: #ffebf8;
+    }
+    
+    .navbar li {
+      position: relative;
+      padding: 15px 20px;
+    }
+    
+    .navbar a {
+      color: #ae0c00;
+      text-decoration: none;
+      display: block;
+      padding: 10px 15px;
+      font-size: 16px;
+    }
+    
+    .navbar li:hover {
+      background-color: white-space;
+    }
+
+    /* Dropdown Menu */
+    .dropdown {
+      position: absolute;
+      left: 0;
+      top: 100%;
+      background-color: #ae0c00;
+      display: none;
+      list-style-type: none;
+      padding: 10px 0;
+      border-radius: 5px;
+      min-width: 160px;
+      z-index: 10;
+    }
+    
+    .dropdown li {
+      padding: 10px 20px;
+    }
+    
+    .dropdown li:hover {
+      background-color: white;
+    }
+    
+    /* Show dropdown when hovering over the parent list item */
+    .navbar li:hover .dropdown {
+      display: block;
+    }
+
+    /* Dropdown item hover */
+    .dropdown li a {
+      color: #ffebf8;
+      text-decoration: none;
+    }
+    .dropdown li a:hover {
+      background-color: white;
+    }
+	    body {
+      margin: 0;
+      padding: 0;
+      background-color: #ffebf8;
+    }
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+.button {
+  background-color: #ae0c00;
+  border: none;
+  color: white;
+  padding: 13px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button {border-radius: 4px;}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.button {
+  background-color: #ae0c00;
+  border: none;
+  color: white;
+  padding: 13px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button {border-radius: 4px;}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
